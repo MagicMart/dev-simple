@@ -1,0 +1,7 @@
+component: express
+name: express-starter
+inputs:
+    src: ./
+    region: eu-west-2
+org: magicmart
+app: dev-simple

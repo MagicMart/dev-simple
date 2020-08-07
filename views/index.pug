@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .mw7.center.pa3
+        h1 Recent Posts
+        hr.ba.blue
+        ul
+            each obj in posts
+                - const slug = obj.Key
+                    li.grey #{obj.LastModified} 
+                        span.blue  
+                            a(href=`${url}/posts/${slug}` ) #{obj.Key}
+
+
