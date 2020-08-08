@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
     res.locals.siteName = "Dev Simple";
-    res.locals.url = "https://f8zanobzb9.execute-api.eu-west-2.amazonaws.com";
+    res.locals.url = "https://jzsgku7hoi.execute-api.eu-west-2.amazonaws.com";
     next();
 });
 
