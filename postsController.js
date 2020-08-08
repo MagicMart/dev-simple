@@ -1,4 +1,3 @@
-// @ts-check
 const Posts = require("./S3/posts");
 const autoCatch = require("./autoCatch");
 

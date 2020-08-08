@@ -1,4 +1,3 @@
-// @ts-check
 // @ts-ignore
 const AWS = require("aws-sdk");
 
