@@ -15,6 +15,9 @@ function displayDate(date) {
     return date.toLocaleDateString();
 }
 
+/**
+ * @param {string} key
+ */
 function displayItem(key) {
     // return key.replace(/posts\/|.html/g, "");
     return key;
